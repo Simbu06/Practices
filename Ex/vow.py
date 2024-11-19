@@ -4,4 +4,3 @@ for i in l:
     if i in v:
         print(str(i)*len(l))
         break
-# print("123")
