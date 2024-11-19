@@ -5,10 +5,6 @@ def rev(a):
         val=val*10+rem
         a//=10
         return val
-    
-def adam(f):
-    
-
 f=int(input())
 f1=f*f
 first=rev(f)

@@ -1,13 +1,12 @@
-#/// 2D List Creation
-# r=int(input())
-# c=int(input())
-# mat=[]
-# mul=1
-# for i in range(r):
-#     a=[]
-#     for j in range(c):
-#         a.append(int(input()))
-#     mat.append(a)
+# 2D List Creation
+r=int(input())
+c=int(input())
+mat=[]
+for i in range(r):
+    a=[]
+    for j in range(c):
+        a.append(int(input()))
+    mat.append(a)
 # #//Diagonal Multiplication
 # for i in range(r):
 #     for j in range(c):
